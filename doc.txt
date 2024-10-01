@@ -1,0 +1,47 @@
+FUNCIONALIDADE DO GIT E GITHUB
+-Principal ferramenta que todo mundo usa, pra conversar de uma maneira única e centralizada nas versões de um projeto;
+-Subversões, etc;
+
+GITHUB
+-Repositorio privado, só voce tem acesso e pode chamar pessoas pra trabalhar junto. Na grande maioria das vezes, nas empresas, os repositorios sao privados;
+-Repositorio publico, qualquer um tem acesso/pode ate pegar ele;
+-Commit, com atualizações/versões do seu código na nuvem em tempo real;
+
+READ.ME(markdown) 
+-no arquivo, o commit new file faz com que fique aparecendo a ultima alteração;
+-Sempre criar um READ.me nos seus projetos, falando e comentando sobre cada passo a passo daquele projeto, e tal;
+-arquivo comum, primeiro arquivo, que pode ser tipo um manual, passo a passo pra voce conseguir trabalhar em conjunto naquele projeto, downloads necessários, informações do projeto, etc;
+-tem umas manhas q vc pode usar, por ex, colocar: >Para rodar esse projeto, por favor digite: 
+```
+npm install react
+```
+E quando voce vai em preview, fica certinho;
+-Commit new file = momento exato de como está o projeto naquele estado, voce passa um rótulo. Por ex: Criando o arquivo read.me;
+-no lapis, vc pode fazer alterações;
+
+VSCODE
+-Tem uma forma de voce utilizar ele em nuvem;
+-aperta o ponto . ;
+-é um pouco limitado, mas pra criar um html css js da bom;
+-Qnd vc adicionava um arquivo no github, tinha a opção de dar um commid new file, agora nessa extensão do vscode em nuvem, após apertar o ponto, no terceiro icon chamado de Source controle, ele identifica que existe alterações no repositório. Ele
+mostra todas as alterações que voce fez, até em outros arquivos;
+-qnd vc clica no nome q vc deu no commit new file, que fica no meio, vc consegue ver todas as alterações realizadas naquele commit;
+
+ADICIONANDO UM COLABORADOR
+-Vá em settings (configurações), e em collaborators. Voce adiciona o usuário, e agora, ele pode Commitar no projeto e adicionar novos arquivos, trabalhando como uma equipe;
+
+GIT -> GITHUB
+-Antes da existencia do github, tudo era feito em linhas de comando, ou seja, no git;
+-Arquivos locais, agora nao na nuvem;
+-vai no repositorio, em CODE, e copia tudo;
+-Depois vai no terminal da um cd desktop > git clone e um control v = ele vai criar/clonar a pasta da nuvem, agora no dispositivo local (provavelmente vai estar na area de trabalho);
+-basicamente o git eh o github tryhard com linhas de codigos e terminais, vc usa algumas tags como o git log, que voce consegue ver todas os commits que voce fez. Outra tag, seria o git log --oneline, voce consegue ver todos os commits em linhas,
+em ordem, bonitinho. o git pull, mostra se durante o ultimo momento, houve alguma alteração, vc recebe essas atualizações;
+-usando o control j agora dentro do visual studeo, vc abre o terminal integrado dele. Podendo usar esses comandos ditos a cima tb;
+-Tem como vc dar um commit pelo terminal do vscode. voce abre o terminal com o control j, e pode dar um git status para ver as alterações que voce fez, ele fica em laranja as alterações. o git commit (igual fizemos com os anteriores, la na nuvem), 
+voce entao faz git commit index.html -m "mensagem que voce quer deixar" (exatamente qual o arquivo queremos commitar), o -m e tudo oq tiver dentro das aspas duplas, é oq vc quer deixar como mensagem do commit. Ao dar um enter, o commit será executado.
+Se vc der um git status, aquela sinalização em laranja não estará mais lá, visto que voce ja deu o git commit;
+-git push voce "PUSHA", empurra as mudanças LOCAIS QUE FIZEMOS, la para o codigo que está no github, para ficarem iguais. git push origin main (indicamos para qual o local/divisão da aplicação);
+-existem alguns comandos como o git log --oneline; git log -p (quisermos ver mais como as alterações do commit), git log --autor="user_name" (informacoes do autor do commit), git log --since=1.month.ago --until=1.day.ago (informacoes por data),etc;
+-o comando git clone é usado para selecionar um repositório existente e criar um clone ou uma cópia dele em um repositorio local;
+
