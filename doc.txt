@@ -45,3 +45,12 @@ Se vc der um git status, aquela sinalização em laranja não estará mais lá, 
 -existem alguns comandos como o git log --oneline; git log -p (quisermos ver mais como as alterações do commit), git log --autor="user_name" (informacoes do autor do commit), git log --since=1.month.ago --until=1.day.ago (informacoes por data),etc;
 -o comando git clone é usado para selecionar um repositório existente e criar um clone ou uma cópia dele em um repositorio local;
 
+PASSO A PASSO
+-Cria o repositorio la no github e copia o link dele;
+-Abre o terminal do pc, e coloca cd desktop > git clone https...;
+-Pronto, vai estar o arquivo na area de trabalho;
+-puxa ele no vscode, faz td la oq vc tiver feito;
+-no terminal do vscode, vc pode dar um git status pra verificar as mudanças/criações dos arquivos, etc;
+-git add . = adiciona todos os arquivos que voce criou. Voce pode fazer manualmente, com o git add x, onde x eh o nome da pag;
+-Vc pode fazer um git commit x, onde x eh apenas o arquivo que voce alterou, ou um git commit . -m "construindo o projeto" para commitar tudo oq vc fez;
+-dps, o git push pra "pushar" / empurrar td pra nuvem;
